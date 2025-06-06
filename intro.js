@@ -77,4 +77,27 @@ function arrayifyString(string) {
   //  Want an additional challenge? - don't use the built in JS string method Array.split(). 
 }
 
-console.log(arrayifyString("they is it"))
+// console.log(arrayifyString("they is it"))
+
+
+
+function calculateCube(num) {
+    return num*num*num
+}
+
+// console.log(calculateCube(5))
+
+// function isaVowel(char) {
+//     vowel = ["a","A","e","E","i","I","o","O","u","U"]
+//     for (let i = 0; i<vowel.length; i++) {
+//         if (char === vowel[i]) {
+//         console.log("is a vowel")    
+//         return 
+//         }
+        
+//     }
+// console.log("no")
+// }
+
+// isaVowel("e")
+
