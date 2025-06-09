@@ -101,3 +101,67 @@ function calculateCube(num) {
 
 // isaVowel("e")
 
+// function getTwo(one,two) {
+//     return [one.length,two.length]
+// }
+
+// console.log(getTwo("here","thereerere"))
+
+
+
+
+
+
+// function sumArray(arr) {
+//     sum = 0
+//     for (let i = 0; i<arr.length; i++) {
+//         sum = sum + arr[i]
+//     }
+//     return sum;
+// }
+// console.log(sumArray([2, 3, 4, 5, 6]));
+
+// sees if number is prime or not
+// function checkPrime(num) {
+//     if (num < 2) {
+//         return false;
+//     }
+//     for (let i=2; i<=Math.sqrt(num); i++) {
+//         if (num % i === 0) {
+//             return false
+//         }
+//     }
+//     return true;
+
+
+// }
+
+// function printPrimes(num) {
+//     arrPrime = [];
+//     for (let i = 0; i < num; i++) {
+//         if (checkPrime(i)) {
+//             arrPrime.push(i);
+//         }
+    
+//     }
+// return arrPrime
+// }
+// console.log(printPrimes(600))
+
+
+// function printLongestWord(word) {
+//     let longest = word[0]
+//     for(let i = 1; i < word.length; i++) {
+//         if (longest.length < word[i].length) {
+//             longest = word[i]
+//         }
+//     }
+//     return longest
+// }
+
+
+
+
+// console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "blob"]));
+
+
